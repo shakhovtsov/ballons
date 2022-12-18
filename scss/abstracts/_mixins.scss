@@ -1,0 +1,20 @@
+@mixin style-link($color) {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color-grey;
+}
+
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin phone {
+    @media (max-width: 600px) {
+        
+    }
+}

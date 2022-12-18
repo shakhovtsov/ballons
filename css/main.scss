@@ -1,0 +1,41 @@
+// папка abstracts
+@import 
+"../scss/abstracts/variables",
+"../scss/abstracts/mixins",
+"../scss/abstracts/functions";
+
+// папка base
+@import
+"../scss/base/animations",
+"../scss/base/base.scss",
+"../scss/base/typography",
+"../scss/base/utilities";
+
+// папка components
+@import
+"../scss/components/form",
+"../scss/components/bg-video",
+"../scss/components/feedBack-card",
+"../scss/components/tour-card",
+"../scss/components/adventure-card",
+"../scss/components/composition",
+"../scss/components/button-text",
+"../scss/components/buttons";
+
+// папка layout
+@import
+"../scss/layout/navigation",
+"../scss/layout/footer",
+"../scss/layout/grid",
+"../scss/layout/header.scss";
+
+// папка pages
+@import
+"../scss/pages/home";
+
+
+
+
+
+
+

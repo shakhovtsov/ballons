@@ -1,0 +1,44 @@
+
+// Анимация которая поднимает кнопку на 5px наверх
+@keyframes BtnToUp {
+    0% {
+        opacity: 0;
+        transform: translateY(5rem);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+// Анимация которая сдвигает техт слева на право
+@keyframes LeftToRight {
+    0% {
+        opacity: 0;
+        // transform: scaleX(-50%);
+        transform: translateX(-10rem);
+    }
+    80% {
+        transform: translateX(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+// Анимация которая сдвигает техт справа на лево
+@keyframes RightToLeft {
+    0% {
+        opacity: 0;
+        // transform: scaleX(-50%);
+        transform: translateX(10rem);
+    }
+    80% {
+        transform: translateX(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
